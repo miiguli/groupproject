@@ -1,0 +1,20 @@
+.attribution {
+  background-color: rgb(245, 246, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.footer-logo {
+  width:50px
+}
+
+.footer-links {
+  color: rgb(107, 114, 128);
+  list-style-type: none;
+  text-align: center;
+  line-height: 3;
+  padding: 0;
+  margin: 25px 0;
+}
