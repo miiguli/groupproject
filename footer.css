@@ -1,5 +1,5 @@
 .attribution {
-  background-color: lightblue;
+  background-color: rgb(245, 246, 248);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,5 +7,6 @@
 }
 
 .footer-logo {
-  width:60px
+  width:50px
 }
+
