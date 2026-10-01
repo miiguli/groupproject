@@ -10,3 +10,11 @@
   width:50px
 }
 
+.footer-links {
+  color: rgb(107, 114, 128);
+  list-style-type: none;
+  text-align: center;
+  line-height: 3;
+  padding: 0;
+  margin: 25px 0;
+}
