@@ -3,6 +3,104 @@ body {
   padding: 0;
 }
 
+p {
+  font-family: sans-serif;
+  color: gray;
+  line-height: 2;
+}
+
+button {
+  width: 140px;
+  padding: 10px;
+  border-style: none;
+  border-radius: 75px; 
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  font-size: 12px;
+  margin-bottom: 130px;
+  margin-top: 30px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
 .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, m);
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.card-variant {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:"box-1 box-2"
+  "box-1 box-3"
+  "box-1 box-4";
 
 }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "feat-1 feat-2 feat-3";
+}
+
+.feat {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.logo-grid {
+  margin: 10px 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "logo-1 logo-2 logo-3 logo-4 logo-5";
+}
+
+.box {
+
+}
+
+.box-img {
+  
+}
+
+.top-img {
+  width: 4em;
+}
+
+.big-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: black;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+
+
+.ios-button {
+  background-color: rgb(0, 206, 144);
+}
+
+.mac-button {
+  background-color: rgb(0, 102, 255);
+}
+
+.text {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+

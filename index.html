@@ -19,32 +19,35 @@
   <div class="grid-container"><!--div koko sivulle voi poista jos halua-->
     <!--alue yksi-->
 
-    <div>
-      <img src="images/logo.svg">
-      <p>
-        A history of everything you copy
-      </p>
+    <div class="card">
+      <img class="top-img" src="images/logo.svg">
+      
+        <p class="big-title">
+          A history of everything you copy
+        </p>
 
-      <p>
-        Clipboard allows you to track and organize everything you
-        copy. Instantly access your clipboard on all your devices.
-      </p>
-
-      <button>
-        Download for iOS
-      </button>
-      <button>
-        Download for Mac
-      </button>
-    </div>
-
-    <!--alue kaksi-->
-    <div>
-      <p>
+        <p>
+          Clipboard allows you to track and organize everything you
+          copy. Instantly access your clipboard on all your devices.
+        </p>
+      
+      
+      <div class="buttons">
+        <button class="ios-button">
+          Download for iOS
+        </button>
+        <button class="mac-button">
+          Download for Mac
+        </button>
+        </div>
+      
+    
+    
+      <p class="title">
         Keep track of your snippets
       </p>
 
-      <p>
+      <p class="text">
         Clipboard instantly stores any item you copy in the cloud,
         meaning you can access your snippets immediately on all your
         devices. Our Mac and iOS apps will help you organize everything.
@@ -53,10 +56,10 @@
     </div>
 
     <!--eka grid alue kuva kanssa-->
-    <div> <!--tää on div koko gridille-->
-      <img src="images/image-computer.png">
-      <div>
-        <p>
+    <div class="card-variant"> <!--tää on div koko gridille-->
+      <img class="box-img" src="images/image-computer.png" style="grid-area: box-1;">
+      <div class="box" style="grid-area: box-2;">
+        <p class="title">
           Quick Search
         </p>
 
@@ -66,8 +69,8 @@
 
       </div>
 
-      <div>
-        <p>
+      <div class="box" style="grid-area: box-3;">
+        <p class="title">
           iCloud Sync
         </p>
 
@@ -76,8 +79,8 @@
         </p>
 
       </div>
-      <div>
-        <p>
+      <div class="box" style="grid-area: box-4;">
+        <p class="title">
           Complete History
         </p>
 
@@ -89,8 +92,8 @@
     </div>
 
     <!--alue kolme-->
-    <div>
-      <p>
+    <div class="card">
+      <p class="title">
         Access Clipboard anywhere
       </p>
 
@@ -103,55 +106,61 @@
     </div>
 
     <!--isoin grid alue-->
-    <div>
-      <p>
+    <div class="card">
+      <p class="title">
         Supercharge your workflow
       </p>
 
+    
       <p>
         We’ve got the tools to boost your productivity.
       </p>
-
-      <div>
-        <div>
+    </div>
+      
+    <div class="features-grid">
+      
+        <div class="feat" style="grid-area: feat-1;">
           <img src="images/icon-blacklist.svg">
-          <p>
+          <p class="title">
             Create blacklists
           </p>
           <p>
             Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
           </p>
         </div>
-        <div>
+        <div class="feat" style="grid-area: feat-2;">
           <img src="images/icon-text.svg">
-          <p>
+          <p class="title">
             Plain text snippets
           </p>
           <p>
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
-        <div>
+        <div class="feat" style="grid-area: feat-3;">
           <img src="images/icon-preview.svg">
-          <p>
+          <p class="title">
             Sneak preview
           </p>
           <p>
             Quick preview of all snippets on your Clipboard for easy access.
           </p>
         </div>
-      </div>
-      <div>
-        <img src="images/logo-google.png">
-        <img src="images/logo-ibm.png">
-        <img src="images/logo-microsoft.png">
-        <img src="images/logo-hp.png">
-        <img src="images/logo-vector-graphics.png">
-      </div>
+        
     </div>
+      </div>
+      
+      <div class="logo-grid">
+        <img class="logo" src="images/logo-google.png" style="grid-area: logo-1;">
+        <img class="logo" src="images/logo-ibm.png" style="grid-area: logo-2;">
+        <img class="logo" src="images/logo-microsoft.png" style="grid-area: logo-3;">
+        <img class="logo" src="images/logo-hp.png" style="grid-area: logo-4;">
+        <img class="logo" src="images/logo-vector-graphics.png" style="grid-area: logo-5;">
+      </div>
+    
 
     <!--alue neljä-->
-    <div>
+    <div class="card">
       <p>
         Clipboard for iOS and Mac OS
       </p>
@@ -159,10 +168,10 @@
         Available for free on the App Store. Download for Mac or iOS, sync with iCloud
         and you’re ready to start adding to your clipboard.
       </p>
-      <button>
+      <button class="ios-button">
         Download for iOS
       </button>
-      <button>
+      <button class="mac-button">
         Download for Mac
       </button>
     </div>
