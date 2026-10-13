@@ -21,6 +21,7 @@
 
 .footer-links a:hover {
   color: rgb(38, 186, 164);
+  cursor: pointer;
 }
 
 .footer-social {
@@ -29,6 +30,7 @@
 }
 
 .footer-social img:hover {
+  cursor: pointer;
   filter: brightness(0) saturate(100%) invert(60%) sepia(37%) saturate(792%) hue-rotate(122deg) brightness(95%) contrast(88%);
 }
 
